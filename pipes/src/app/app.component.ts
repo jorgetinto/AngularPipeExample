@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pipes';
+  nombre = 'Jorge';
+  arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  PI = Math.PI;
+  a = 0.234;
+  salario = 12345.50;
+  heroe = {
+      nombre: 'logan',
+      clave: 'wolverine',
+      edad: 500,
+      direccion: {
+        calle: 'primera',
+        casa: '19'
+      }
+  }
 }
