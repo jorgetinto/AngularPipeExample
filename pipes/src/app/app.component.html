@@ -99,6 +99,41 @@
                 <td>{{ salario | number:'.2-2' }}</td>
             </tr>
 
+            <tr>
+                <td>14</td>
+                <td>{{ valorDePromesa }}</td>
+                <td> async </td>
+                <td>{{ valorDePromesa | async }}</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>{{ fecha }}</td>
+                <td> date </td>
+                <td>{{ fecha | date }}</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>{{ fecha }}</td>
+                <td> date:'medium' </td>
+                <td>{{ fecha | date:'medium' }}</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>{{ fecha }}</td>
+                <td> date:'MMMM - dd' </td>
+                <td>{{ fecha | date:'MMMM - dd' }}</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>{{ fecha }}</td>
+                <td> date:'dd-MM-yyyy' </td>
+                <td>{{ fecha | date:'dd-MM-yyyy' }}</td>
+            </tr>
+
         </tbody>
     </table>
 

@@ -5,12 +5,18 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   nombre = 'Jorge';
+
   arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
   PI = Math.PI;
+
   a = 0.234;
+
   salario = 12345.50;
+
   heroe = {
       nombre: 'logan',
       clave: 'wolverine',
@@ -19,5 +25,12 @@ export class AppComponent {
         calle: 'primera',
         casa: '19'
       }
-  }
+  };
+
+  valorDePromesa = new Promise (( resolve, reject ) => {
+    setTimeout(() => resolve('Llego la data!'), 3500);
+  });
+
+  fecha = new Date();
+
 }
