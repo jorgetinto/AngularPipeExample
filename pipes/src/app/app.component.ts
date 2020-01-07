@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   nombre = 'Jorge';
+  nombre2 = 'joRGe felIpe pino gAray';
+  video = 'pHKTjsYlNh0';
 
   arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
